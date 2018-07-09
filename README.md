@@ -27,7 +27,7 @@ _fetch $Keyword from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for CVE Search
 
-![CVE Search Walkthrough Screenshot](screenshots/search_for_cve.jpg)
+![CVE Search Walkthrough Screenshot](readme-media/screenshots/search_for_cve.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -50,7 +50,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Validate CVE
 
-![Validate CVE Walkthrough Screenshot](screenshots/validate_cve.jpg)
+![Validate CVE Walkthrough Screenshot](readme-media/screenshots/validate_cve.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -71,7 +71,7 @@ _fetch $SID from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for SID to CVE
 
-![SID to CVE Walkthrough Screenshot](screenshots/sid_to_cve.jpg)
+![SID to CVE Walkthrough Screenshot](readme-media/screenshots/sid_to_cve.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -93,7 +93,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for CVE to Exploit DB ID
 
-![CVE to Exploit DB ID Walkthrough Screenshot](screenshots/cve_to_exploitdb.jpg)
+![CVE to Exploit DB ID Walkthrough Screenshot](readme-media/screenshots/cve_to_exploitdb.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -115,7 +115,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for D2 Elliot
 
-![CVE to D2 Elliot Walkthrough Screenshot](screenshots/get_d2.jpg)
+![CVE to D2 Elliot Walkthrough Screenshot](readme-media/screenshots/get_d2.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -138,7 +138,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Exploit DB
 
-![Exploit DB Walkthrough Screenshot](screenshots/get_edb.jpg)
+![Exploit DB Walkthrough Screenshot](readme-media/screenshots/get_edb.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -162,7 +162,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Metasploit
 
-![Metasploit Walkthrough Screenshot](screenshots/get_msf.jpg)
+![Metasploit Walkthrough Screenshot](readme-media/screenshots/get_msf.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -186,7 +186,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Saint
 
-![Saint Walkthrough Screenshot](screenshots/get_saint.jpg)
+![Saint Walkthrough Screenshot](readme-media/screenshots/get_saint.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -209,7 +209,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for CAPEC
 
-![CAPEC Walkthrough Screenshot](screenshots/get_capec.jpg)
+![CAPEC Walkthrough Screenshot](readme-media/screenshots/get_capec.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -235,7 +235,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for CWE Category
 
-![CWE Category Walkthrough Screenshot](screenshots/get_category.jpg)
+![CWE Category Walkthrough Screenshot](readme-media/screenshots/get_category.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -260,7 +260,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for CPE ID
 
-![CVE to CPE ID Walkthrough Screenshot](screenshots/get_cpe.jpg)
+![CVE to CPE ID Walkthrough Screenshot](readme-media/screenshots/get_cpe.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -282,7 +282,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for CVE info
 
-![CVE Info Walkthrough Screenshot](screenshots/get_cve.jpg)
+![CVE Info Walkthrough Screenshot](readme-media/screenshots/get_cve.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -306,7 +306,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for getting CWE
 
-![Get CWE Walkthrough Screenshot](screenshots/get_cwe.jpg)
+![Get CWE Walkthrough Screenshot](readme-media/screenshots/get_cwe.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -328,7 +328,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for getting WASC information
 
-![WASC Information Walkthrough Screenshot](screenshots/get_wasc.jpg)
+![WASC Information Walkthrough Screenshot](readme-media/screenshots/get_wasc.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -353,7 +353,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for IBM Aixapar
 
-![IBM Aixapar Walkthrough Screenshot](screenshots/get_aixapar.jpg)
+![IBM Aixapar Walkthrough Screenshot](readme-media/screenshots/get_aixapar.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -376,7 +376,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Cisco
 
-![CISCO Walkthrough Screenshot](screenshots/get_cisco.jpg)
+![CISCO Walkthrough Screenshot](readme-media/screenshots/get_cisco.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -398,7 +398,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Debian
 
-![Debian Walkthrough Screenshot](screenshots/get_debian.jpg)
+![Debian Walkthrough Screenshot](readme-media/screenshots/get_debian.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -421,7 +421,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Fedora
 
-![Fedora Walkthrough Screenshot](screenshots/get_fedora.jpg)
+![Fedora Walkthrough Screenshot](readme-media/screenshots/get_fedora.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -444,7 +444,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Gentoo
 
-![Gentoo Walkthrough Screenshot](screenshots/get_gentoo.jpg)
+![Gentoo Walkthrough Screenshot](readme-media/screenshots/get_gentoo.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -467,7 +467,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for HP
 
-![HP Walkthrough Screenshot](screenshots/get_hp.jpg)
+![HP Walkthrough Screenshot](readme-media/screenshots/get_hp.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -490,7 +490,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Mandriva
 
-![Mandriva Walkthrough Screenshot](screenshots/get_mandriva.jpg)
+![Mandriva Walkthrough Screenshot](readme-media/screenshots/get_mandriva.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -513,7 +513,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Microsoft
 
-![Microsoft Walkthrough Screenshot](screenshots/get_microsoft.jpg)
+![Microsoft Walkthrough Screenshot](readme-media/screenshots/get_microsoft.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -561,7 +561,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Suse
 
-![Suse Walkthrough Screenshot](screenshots/get_suse.jpg)
+![Suse Walkthrough Screenshot](readme-media/screenshots/get_suse.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -584,7 +584,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Ubuntu
 
-![Ubuntu Walkthrough Screenshot](screenshots/get_ubuntu.jpg)
+![Ubuntu Walkthrough Screenshot](readme-media/screenshots/get_ubuntu.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -607,7 +607,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for VMWare
 
-![VMWare Walkthrough Screenshot](screenshots/get_vmware.jpg)
+![VMWare Walkthrough Screenshot](readme-media/screenshots/get_vmware.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -630,7 +630,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for BID
 
-![BID Walkthrough Screenshot](screenshots/get_bid.jpg)
+![BID Walkthrough Screenshot](readme-media/screenshots/get_bid.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -653,7 +653,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for CertVN
 
-![CertVN Walkthrough Screenshot](screenshots/get_certvn.jpg)
+![CertVN Walkthrough Screenshot](readme-media/screenshots/get_certvn.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -676,7 +676,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for IAVM
 
-![IAVM Walkthrough Screenshot](screenshots/get_iavm.jpg)
+![IAVM Walkthrough Screenshot](readme-media/screenshots/get_iavm.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -700,7 +700,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Refs
 
-![Refs Walkthrough Screenshot](screenshots/get_refs.jpg)
+![Refs Walkthrough Screenshot](readme-media/screenshots/get_refs.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -723,7 +723,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for SCIP
 
-![SCIP Walkthrough Screenshot](screenshots/get_scip.jpg)
+![SCIP Walkthrough Screenshot](readme-media/screenshots/get_scip.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -811,7 +811,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Snort
 
-![Snort Walkthrough Screenshot](screenshots/get_snort.jpg)
+![Snort Walkthrough Screenshot](readme-media/screenshots/get_snort.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -835,7 +835,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Suricata
 
-![Suricata Walkthrough Screenshot](screenshots/get_suricata.jpg)
+![Suricata Walkthrough Screenshot](readme-media/screenshots/get_suricata.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -859,7 +859,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Nessus
 
-![Nessus Walkthrough Screenshot](screenshots/get_nessus.jpg)
+![Nessus Walkthrough Screenshot](readme-media/screenshots/get_nessus.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -884,7 +884,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Nmap
 
-![Nmap Walkthrough Screenshot](screenshots/get_nmap.jpg)
+![Nmap Walkthrough Screenshot](readme-media/screenshots/get_nmap.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -908,7 +908,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for OpenVAS
 
-![OpenVAS Walkthrough Screenshot](screenshots/get_openvas.jpg)
+![OpenVAS Walkthrough Screenshot](readme-media/screenshots/get_openvas.jpg)
 
 The lookup call returns output in the following structure for available data:
 
@@ -933,7 +933,7 @@ _fetch $CVE from testingintegrations limit 1
 
 ###### Sample walkthrough screenshot for Oval
 
-![Oval Walkthrough Screenshot](screenshots/get_oval.jpg)
+![Oval Walkthrough Screenshot](readme-media/screenshots/get_oval.jpg)
 
 The lookup call returns output in the following structure for available data:
 
