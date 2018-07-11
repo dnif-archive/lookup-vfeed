@@ -37,27 +37,6 @@ The lookup call returns output in the following structure for available data:
 | $CVE | CVE that matched the given keyword |
 | $CVESummary | Summary of the CVE that matched the given keyword |
 
-### Correctly syntax a malformed CVE ID
-
-Returns a valid syntax CVE from a malformed CVE ID
-
-- input : a CVE ID
-
-```
-_fetch $CVE from testingintegrations limit 1
->>_lookup vfeed validate_cve $CVE
-```
-
-###### Sample walkthrough screenshot for Validate CVE
-
-![Validate CVE Walkthrough Screenshot](readme-media/screenshots/validate_cve.jpg)
-
-The lookup call returns output in the following structure for available data:
-
-|Field|Description|
-|-|-|
-| $CVE | The correctly formatted CVE |
-
 ### Retrieve CVE ID for Snort ID
 
 CVE ID for the entered Snort ID
@@ -962,4 +941,8 @@ $cd /dnif/CnxxxxxxxxxxxxV8/lookup_plugins/
 ```  
 git clone https://github.com/dnif/lookup-vfeed.git vfeed
 ```
-4. ###### Move to the `/dnif/<Deployment-key>/lookup_plugins/vfeed/` folder path
+4. ###### Move to the ‘/dnif/<Deployment-key/lookup_plugins/vfeed/’ folder path and download the vfeed community edition database file. The URL to this file can be obtained by copying the URL that the download button points to in the database.
+
+```     
+wget -O vfeed.db "<Database-URL>"
+```
